@@ -1,0 +1,176 @@
+# Core
+herbstluftwm
+
+# Custom Settings
+manjaro-herbstluftwm-settings-minimal
+
+# Status
+polybar
+
+# Term
+termite
+manjaro-zsh-config
+## NOTE: Patch in 1.4.2 for Termite, wait for stable
+micro-nightly-bin
+maia-console
+
+# Networking
+avahi
+networkmanager
+networkmanager-openconnect
+networkmanager-openvpn
+networkmanager-pptp
+networkmanager-vpnc
+ntp
+mobile-broadband-provider-info
+modemmanager
+openresolv
+openssh
+samba
+usb_modeswitch
+
+# Audio
+>multilib manjaro-alsa
+alsa-firmware
+alsa-utils
+manjaro-pulse
+pulseaudio-ctl
+pulseaudio-zeroconf
+
+## Display manager
+lightdm
+lightdm-gtk-greeter
+accountsservice  # Enhanced user accounts handling
+
+## GTK3
+gtk3-classic
+>multilib lib32-gtk3-classic
+
+## GUI Apps
+manjaro-settings-manager
+>extra manjaro-settings-manager-notifier
+pavucontrol
+rofi
+
+## Xorg Input Drivers
+xf86-input-synaptics
+xf86-input-elographics
+xf86-input-evdev
+xf86-input-keyboard
+xf86-input-libinput
+xf86-input-mouse
+xf86-input-void
+
+## Xorg Server and Graphics
+numlockx
+>multilib lib32-libva-intel-driver
+>multilib lib32-libva-mesa-driver
+>multilib lib32-libva-vdpau-driver
+libva-intel-driver
+libva-mesa-driver
+libva-vdpau-driver
+xorg-server
+xorg-xrandr
+xorg-xinit
+xorg-xkill 
+xorg-xsetroot
+
+## Desktop Utils
+perl-file-mimeinfo
+xdg-user-dirs
+xdg-utils
+xdg-su
+
+## Fonts
+cantarell-fonts
+terminus-font
+
+## Artwork
+nitrogen
+illyria-wallpaper
+
+## Misc
+manjaro-hotfixes
+hibernator
+grub-theme-manjaro
+
+### Extras ###
+
+## Various Libs
+>extra geoclue
+>extra zip
+>extra unzip
+>extra p7zip
+>extra unrar
+>extra gcc
+>extra >multilib gcc-libs-multilib
+>extra >multilib gcc-multilib
+
+## Video
+>extra ffmpeg
+>extra gst-libav
+>extra gst-plugins-bad
+>extra gst-plugins-base
+>extra gst-plugins-good
+>extra gst-plugins-ugly
+>extra libdvdcss
+
+## Visual
+>extra compton
+>extra redshift
+>extra vibrancy-icons-teal
+>extra matcha-gtk-theme
+
+## Notifications
+>extra dunst
+
+## CLI Apps
+>extra htop
+>extra powertop
+>extra pamac-cli
+
+## Apps
+>extra manjaro-hello
+>extra firefox
+>extra gnome-disk-utility
+>extra gparted
+>extra spacefm
+>extra xarchiver
+>extra vlc
+>extra pamac
+>extra pamac-gtk
+
+## Connection Services
+>extra android-tools
+>extra android-udev
+>extra gvfs
+>extra gvfs-afc
+>extra gvfs-gphoto2
+>extra gvfs-mtp
+>extra gvfs-nfs
+>extra gvfs-smb
+>extra mtpfs
+>extra udiskie
+>extra udisks2
+
+## Bluetooth
+>extra blueman
+>extra pulseaudio-bluetooth
+
+## Printing Support
+>extra manjaro-printer
+>extra gtk3-print-backends
+>extra pyqt5-common # For hplip
+>extra python-pillow # For hplip
+>extra python-pip # For hplip
+>extra python-reportlab # For hplip
+
+## Fonts
+>extra ttf-bitstream-vera
+>extra ttf-inconsolata
+>extra ttf-indic-otf
+>extra ttf-liberation
+>extra ttf-droid
+
+## Artwork
+>extra manjaro-wallpapers-18.0
